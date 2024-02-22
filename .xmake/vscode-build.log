@@ -1,5 +1,0 @@
-[ 25%]: cache compiling.debug heavy_light_strings.c
-[ 25%]: cache compiling.debug hats.c
-[ 50%]: linking.debug heavy_light_strings
-[ 50%]: linking.debug hats
-[100%]: build ok, spent 0.685s
