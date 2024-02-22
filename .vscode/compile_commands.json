@@ -1,0 +1,16 @@
+[
+{
+  "directory": "/home/mobslicer152/Desktop/ccc2024",
+  "arguments": ["/usr/bin/clang", "-c", "-Qunused-arguments", "-m64", "-g", "-Weverything", "-O0", "-DDEBUG", "-o", "build/.objs/hats/linux/x86_64/debug/hats.c.o", "hats.c"],
+  "file": "hats.c"
+},
+{
+  "directory": "/home/mobslicer152/Desktop/ccc2024",
+  "arguments": ["/usr/bin/clang", "-c", "-Qunused-arguments", "-m64", "-g", "-Weverything", "-O0", "-DDEBUG", "-o", "build/.objs/swipe/linux/x86_64/debug/swipe.c.o", "swipe.c"],
+  "file": "swipe.c"
+},
+{
+  "directory": "/home/mobslicer152/Desktop/ccc2024",
+  "arguments": ["/usr/bin/clang", "-c", "-Qunused-arguments", "-m64", "-g", "-Weverything", "-O0", "-DDEBUG", "-o", "build/.objs/heavy_light_strings/linux/x86_64/debug/heavy_light_strings.c.o", "heavy_light_strings.c"],
+  "file": "heavy_light_strings.c"
+}]

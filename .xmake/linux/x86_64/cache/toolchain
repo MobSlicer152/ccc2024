@@ -1,0 +1,72 @@
+{
+    tool_target_hats_linux_x86_64_ld = {
+        program = "/usr/bin/clang++",
+        toolchain_info = {
+            plat = "linux",
+            name = "clang",
+            arch = "x86_64",
+            cachekey = "clang_arch_x86_64_plat_linux"
+        },
+        toolname = "clangxx"
+    },
+    tool_target_heavy_light_strings_linux_x86_64_ld = {
+        program = "/usr/bin/clang++",
+        toolchain_info = {
+            plat = "linux",
+            name = "clang",
+            arch = "x86_64",
+            cachekey = "clang_arch_x86_64_plat_linux"
+        },
+        toolname = "clangxx"
+    },
+    tool_target_swipe_linux_x86_64_cc = {
+        program = "/usr/bin/clang",
+        toolchain_info = {
+            plat = "linux",
+            name = "clang",
+            arch = "x86_64",
+            cachekey = "clang_arch_x86_64_plat_linux"
+        },
+        toolname = "clang"
+    },
+    tool_target_chocolate_linux_x86_64_cc = {
+        program = "/usr/bin/clang",
+        toolchain_info = {
+            plat = "linux",
+            name = "clang",
+            arch = "x86_64",
+            cachekey = "clang_arch_x86_64_plat_linux"
+        },
+        toolname = "clang"
+    },
+    tool_target_heavy_light_strings_linux_x86_64_cc = {
+        program = "/usr/bin/clang",
+        toolchain_info = {
+            plat = "linux",
+            name = "clang",
+            arch = "x86_64",
+            cachekey = "clang_arch_x86_64_plat_linux"
+        },
+        toolname = "clang"
+    },
+    tool_target_hats_linux_x86_64_cc = {
+        program = "/usr/bin/clang",
+        toolchain_info = {
+            plat = "linux",
+            name = "clang",
+            arch = "x86_64",
+            cachekey = "clang_arch_x86_64_plat_linux"
+        },
+        toolname = "clang"
+    },
+    tool_target_chocolate_linux_x86_64_ld = {
+        program = "/usr/bin/clang++",
+        toolchain_info = {
+            plat = "linux",
+            name = "clang",
+            arch = "x86_64",
+            cachekey = "clang_arch_x86_64_plat_linux"
+        },
+        toolname = "clangxx"
+    }
+}

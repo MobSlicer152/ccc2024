@@ -1,0 +1,11 @@
+{
+    recheck = false,
+    mtimes = {
+        ["xmake.lua"] = 1708534324
+    },
+    options = {
+        debugger = "gdb",
+        toolchain = "clang",
+        mode = "debug"
+    }
+}

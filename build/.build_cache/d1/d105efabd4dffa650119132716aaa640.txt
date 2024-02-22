@@ -1,0 +1,50 @@
+{
+    errdata = "\27[1mbuild/.objs/heavy_light_strings/linux/x86_64/debug/__cpp_heavy_light_strings.c.c:1:5: \27[0m\27[0;1;35mwarning: \27[0m\27[1mthis style of line directive is a GNU extension [-Wgnu-line-marker]\27[0m\
+# 1 \"heavy_light_strings.c\"\
+\27[0;1;32m    ^\
+\27[0m\27[1mheavy_light_strings.c:1:5: \27[0m\27[0;1;35mwarning: \27[0m\27[1mthis style of line directive is a GNU extension [-Wgnu-line-marker]\27[0m\
+# 1 \"<built-in>\" 1\
+\27[0;1;32m    ^\
+\27[0m\27[1mheavy_light_strings.c:1:5: \27[0m\27[0;1;35mwarning: \27[0m\27[1mthis style of line directive is a GNU extension [-Wgnu-line-marker]\27[0m\
+# 1 \"/usr/lib/clang/16/include/stdbool.h\" 1 3\
+\27[0;1;32m    ^\
+\27[0m\27[1mheavy_light_strings.c:2:5: \27[0m\27[0;1;35mwarning: \27[0m\27[1mthis style of line directive is a GNU extension [-Wgnu-line-marker]\27[0m\
+# 1 \"/usr/include/stdio.h\" 1 3 4\
+\27[0;1;32m    ^\
+\27[0m\27[1mheavy_light_strings.c:3:5: \27[0m\27[0;1;35mwarning: \27[0m\27[1mthis style of line directive is a GNU extension [-Wgnu-line-marker]\27[0m\
+# 1 \"/usr/include/stdlib.h\" 1 3 4\
+\27[0;1;32m    ^\
+\27[0m\27[1mheavy_light_strings.c:4:5: \27[0m\27[0;1;35mwarning: \27[0m\27[1mthis style of line directive is a GNU extension [-Wgnu-line-marker]\27[0m\
+# 1 \"/usr/include/string.h\" 1 3 4\
+\27[0;1;32m    ^\
+\27[0m\27[1mheavy_light_strings.c:28:27: \27[0m\27[0;1;35mwarning: \27[0m\27[1mimplicit conversion changes signedness: 'uint32_t' to 'int' [-Wsign-conversion]\27[0m\
+        fgets(string, rawN, stdin);\
+\27[0;1;32m        ~~~~~             ^~~~\
+\27[0m\27[1mheavy_light_strings.c:30:27: \27[0m\27[0;1;35mwarning: \27[0m\27[1mformat specifies type 'uint32_t' but the argument has type 'unsigned long' [-Wformat]\27[0m\
+        printf(\"%u %s\\n\", t * sizeof(char*) + i * rawN, string);\
+\27[0;1;32m                ~~        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~\
+\27[0m\27[0;32m                %lu\
+\27[0m\27[1mheavy_light_strings.c:16:11: \27[0m\27[0;1;35mwarning: \27[0m\27[1munused variable 'heavy' [-Wunused-variable]\27[0m\
+    _Bool heavy[26];\
+\27[0;1;32m          ^\
+\27[0m\27[1mheavy_light_strings.c:27:22: \27[0m\27[0;1;35mwarning: \27[0m\27[1munsafe pointer arithmetic [-Wunsafe-buffer-usage]\27[0m\
+        string = (char*)(strings + t) + i * rawN;\
+\27[0;1;32m                     ^~~~~~~~~~~~~~~~~~~~\
+\27[0m\27[1mheavy_light_strings.c:15:12: \27[0m\27[0;1;35mwarning: \27[0m\27[1m'strings' is an unsafe pointer used for buffer access [-Wunsafe-buffer-usage]\27[0m\
+    char** strings;\
+\27[0;1;32m    ~~~~~~~^~~~~~~\
+\27[0m\27[1mheavy_light_strings.c:27:9: \27[0m\27[0;1;30mnote: \27[0mused in buffer access here\27[0m\
+        string = (char*)(strings + t) + i * rawN;\
+\27[0;1;32m        ^~~~~~~\
+\27[0m\27[1mheavy_light_strings.c:28:15: \27[0m\27[0;1;30mnote: \27[0mused in buffer access here\27[0m\
+        fgets(string, rawN, stdin);\
+\27[0;1;32m              ^~~~~~~\
+\27[0m\27[1mheavy_light_strings.c:30:57: \27[0m\27[0;1;30mnote: \27[0mused in buffer access here\27[0m\
+        printf(\"%u %s\\n\", t * sizeof(char*) + i * rawN, string);\
+\27[0;1;32m                                                        ^~~~~~~\
+\27[0m\27[1mheavy_light_strings.c:27:30: \27[0m\27[0;1;30mnote: \27[0mused in pointer arithmetic here\27[0m\
+        string = (char*)(strings + t) + i * rawN;\
+\27[0;1;32m                             ^~~~~~~\
+\27[0m11 warnings generated.\
+"
+}
